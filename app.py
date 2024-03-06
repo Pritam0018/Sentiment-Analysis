@@ -9,8 +9,8 @@ stopwords=nltk.corpus.stopwords.words('english')
 
 
 
-model=pickle.load(open('D:\\sentiment_analysis\\logistic.pkl','rb'))
-tfidf=pickle.load(open('D:\\sentiment_analysis\\tfidf.pkl','rb'))
+model=pickle.load(open('C:\\Users\\sonib\\PycharmProjects\\pythonProject1\\logistic.pkl','rb'))
+tfidf=pickle.load(open('C:\\Users\\sonib\\PycharmProjects\\pythonProject1\\tfidf.pkl','rb'))
 
 st.title("Emotion Analysis")
 
